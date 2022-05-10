@@ -1,0 +1,238 @@
+.createAndRefresh{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 300px;
+  gap: 15px;
+  float: right;
+  padding: 0 3%;
+}
+
+.modal-one{
+  width:100%;
+  height:100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(0,0,0,.9);
+  z-index: 1;
+}
+
+.label-input-div {
+  padding-bottom: 2%;
+}
+
+/* create region */
+/* .createReceipt{
+
+} */
+.createReceipt {
+  width: 70%;
+}
+
+.createReceipt,
+.refreshList {
+  padding: 0.5rem 1rem;
+  right: 10%;
+  background-color: orange;
+  font-family: 'Lora', serif;
+  font-size: 15px;
+  font-weight: bold;
+  border: solid 5px green
+}
+
+.createReceipt:hover,
+.refreshList:hover {
+  color: white;
+}
+
+.createReceipt:active,
+.refreshList:active {
+  color: black;
+  background: yellow;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+     -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+          box-shadow: inset 0px 0px 5px #c1c1c1;
+   outline: none;
+}
+
+.formCreateReceipt{
+  margin-top: 4%;
+  text-align: center;
+}
+
+.formHeaderCreateReceipt{
+  font-size: 300%;
+  font-family: 'Lora',serif;
+}
+
+.formLabelTextReceiptOrderId{
+  position: absolute;
+  font-family: 'Slabo 27px', serif;
+  left: 22%;
+}
+
+.formLabelTextReceiptTotalItemPrice{
+  position: absolute;
+  font-family: 'Slabo 27px', serif;
+  left: 22%;
+}
+
+.createInputOrderId,
+.createInputTotalItemPrice {
+  position: absolute;
+  right: 22%;
+  font-family: 'Lora', serif;
+  font-weight: bold;
+}
+
+.createReceiptButton{
+  font-size: 110%;
+  margin-top: 5%;
+  padding: 0.5rem 1rem;
+  background-color: orange;
+  font-family: 'Lora', serif;
+  font-size: 15px;
+  font-weight: bold;
+  border: solid 5px green
+}
+
+.createReceiptButton:hover{
+  color: white;
+}
+
+.createReceiptButton:active {
+  color: black;
+  background: yellow;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+     -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+          box-shadow: inset 0px 0px 5px #c1c1c1;
+   outline: none;
+}
+
+/* end of create region */
+
+
+/* Start of update region */
+.formUpdateReceipt {
+  margin-top: 4%;
+  text-align: center;
+}
+
+.formHeaderUpdateReceipt{
+  font-size: 300%;
+  font-family: 'Lora', serif;
+}
+
+.formLabelTextUpdateReceiptId,
+.formLabelTextUpdateReceiptTotalItemPrice{
+  position: absolute;
+  font-family: 'Slabo 27px', serif;
+  left: 22%;
+}
+
+.updateInputOrderNoId,
+.updateInputTotalItemPrice {
+  position: absolute;
+  right: 22%;
+  font-family: 'Lora', serif;
+  font-weight: bold;
+}
+
+.updateReceiptButton{
+  font-size: 110%;
+  margin-top: 5%;
+  padding: 0.5rem 1rem;
+  background-color: orange;
+  font-family: 'Lora', serif;
+  font-size: 15px;
+  font-weight: bold;
+  border: solid 5px green
+}
+
+.updateReceiptButton:hover{
+  color: white;
+}
+
+.updateReceiptButton:active {
+  color: black;
+  background: yellow;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+     -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+          box-shadow: inset 0px 0px 5px #c1c1c1;
+   outline: none;
+}
+
+/* End of update region */
+
+/* start of delete region */
+.formDeleteReceipt {
+  margin-top: 4%;
+  text-align: center;
+}
+
+.formHeaderDeleteReceipt{
+  font-size: 300%;
+  font-family: 'Lora', serif;
+}
+
+.formLabelTextDeleteOrderNo,
+.formLabelOrderNoInDelete {
+  font-size: 140%;
+  font-family: 'Lora', serif;
+}
+
+.deleteReceiptButton{
+  font-size: 110%;
+  margin-top: 5%;
+  padding: 0.5rem 1rem;
+  background-color: orange;
+  font-family: 'Lora', serif;
+  font-size: 15px;
+  font-weight: bold;
+  border: solid 5px green
+}
+
+.deleteReceiptButton:hover{
+  color: white;
+}
+
+.deleteReceiptButton:active {
+  color: black;
+  background: yellow;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+     -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+          box-shadow: inset 0px 0px 5px #c1c1c1;
+   outline: none;
+}
+
+/* End of delete region */
+
+/* div for table to display receipts */
+.receipt {
+    text-align: center;
+    background-color: black;
+    height: 100vh;
+  }
+
+  .actionButtons{
+    width: 20%;
+  }
+
+  button:hover {
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  .receipt-title {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .receipt-table {
+    margin: 0 auto;
+    font-family: 'Lora', serif;
+  }
+  
+  .receipt-table-column {
+    padding: 0px 30px
+  }

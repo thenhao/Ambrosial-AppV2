@@ -1,0 +1,43 @@
+.modalViewReceiptOrdersContainer{
+  width:100%;
+  height:100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(0,0,0,.9);
+  z-index: 3;
+}
+
+.closeViewReceiptButton{
+  margin-top: 5%;
+  font-family: 'Lora', serif;
+  background-color: orange;
+  border: 5px solid green;
+  padding: 0.5rem 1rem; 
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.closeViewReceiptButton:hover {
+  color: white;
+}
+
+.closeViewReceiptButton:active {
+color: black;
+background: yellow;
+-webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+   -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+        box-shadow: inset 0px 0px 5px #c1c1c1;
+ outline: none;
+}
+
+.viewReceiptItemsTable {
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Lora', serif;
+}
+
+.viewReceiptItemsTableColumn {
+  font-family: 'Slabo 27px', serif;
+  padding: 0px 30px;
+}

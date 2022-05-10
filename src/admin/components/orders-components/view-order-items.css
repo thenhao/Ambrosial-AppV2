@@ -1,0 +1,165 @@
+.modalViewOrderContainer{
+  width:100%;
+  height:100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(0,0,0,.9);
+  z-index: 3;
+}
+
+.viewOrderItemsTable {
+  margin: 0 auto;
+  margin-top: 4%;
+}
+
+.viewOrderItemsTableColumnData {
+  font-family: 'Lora', serif;
+}
+
+.viewOrderItemsTableColumn {
+  font-family: 'Slabo 27px', serif;
+}
+
+.label-input-div {
+  padding-bottom: 2%;
+}
+/* Create Section */
+.formCreateNewOrderItem {
+  margin-top: 4%;
+  text-align: center;
+}
+
+.formHeaderCreateOrderItem{
+  font-size: 300%;
+  font-family: 'Lora', serif;
+}
+
+.formLabelTextCreateOrderNo,
+.formLabelTextCreateOrderQuantity,
+.formLabelTextCreateOrderMenuItemId,
+.formLabelTextCreateOrderTotalItemPrice,
+.formLabelTextCreateOrderTableNo, 
+.formLabelTextCreateOrderOrderStatus {
+  position: absolute;
+  left: 24%;
+  font-family: 'Slabo 27px', serif;
+}
+
+.createInputNewOrderNoId,
+.createInputNewMenuItemId,
+.createInputNewQuantity,
+.createInputNewTotalItemPrice,
+.createInputNewTableNo,
+.createInputNewOrderStatus {
+  position: absolute;
+  right: 24%;
+  font-family: 'Lora', serif;
+  font-weight: bold;
+}
+
+.createOrderItemsButton{
+  margin-top: 5%;
+  padding: 0.5rem 1rem;
+  background-color: orange;
+  font-family: 'Lora', serif;
+  font-size: 15px;
+  font-weight: bold;
+  border: solid 5px green
+}
+
+.createOrderItemsButton:hover{
+  color: white;
+}
+
+.createOrderItemsButton:active {
+  color: black;
+  background: yellow;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+     -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+          box-shadow: inset 0px 0px 5px #c1c1c1;
+   outline: none;
+}
+
+.formLabelTextCreateOrder {
+  text-align: center;
+}
+
+/* End of Create Section */
+
+/* Update Section */
+.formUpdateOrderItem {
+  margin-top: 4%;
+  text-align: center;
+}
+.formHeaderUpdateOrderItem{
+  font-size: 300%;
+}
+
+.formLabelTextUpdateOrder,
+.formLabelTextUpdateOrderMenuItemId,
+.formLabelTextUpdateOrderQuantity,
+.formLabelTextUpdateOrderTotalItemPrice,
+.formLabelTextUpdateOrderTableNo,
+.formLabelTextUpdateOrderOrderStatus{
+  position: absolute;
+  left: 24%;
+  font-family: 'Slabo 27px', serif;
+}
+
+.createInputUpdateOrderNoId,
+.createInputUpdateMenuItemId,
+.createInputUpdateQuantity,
+.createInputUpdateTotalItemPrice,
+.createInputUpdateTableNo,
+.createInputUpdateOrderStatus {
+  position: absolute;
+  right: 24%;
+  font-family: 'Lora', serif;
+  font-weight: bold;
+}
+
+/* End of update section */
+
+/* Delete section */
+.formDeleteOrderItem {
+  margin-top:4%;
+  text-align: center;
+}
+
+.formHeaderDeleteOrderItem{
+  font-size: 300%;
+  font-family: 'Lora', serif;
+}
+
+.formLabelTextDeleteOrderItem,
+.formLabelMenuItem {
+  font-size: 130%;
+  font-family: 'Lora', serif;
+}
+
+.deleteOrderItemButton{
+  margin-top: 5%;
+  padding: 0.5rem 1rem;
+  background-color: orange;
+  font-family: 'Lora', serif;
+  font-size: 15px;
+  font-weight: bold;
+  border: solid 5px green
+}
+
+.deleteOrderItemButton:hover{
+  color: white;
+}
+
+.deleteOrderItemButton:active {
+  color: black;
+  background: yellow;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+     -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+          box-shadow: inset 0px 0px 5px #c1c1c1;
+   outline: none;
+}
+
+/* End of delete section */
+

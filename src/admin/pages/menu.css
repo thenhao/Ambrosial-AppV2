@@ -1,0 +1,114 @@
+.menuItemsContainer {
+  text-align: center;
+  background-color: black;
+  height: 100vh;
+}
+
+.createAndRefreshMenuItem{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 220px;
+  float: right;
+  margin-left: 82.5%;
+}
+
+.menuItemsTitle {
+  font-family: 'Open Sans', san-serif;
+}
+
+.menuItemsTable {
+  margin: 0 auto;
+  font-family: 'Lora', serif;
+}
+
+.menuItems-image {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 1px;
+  width: 120px;
+  object-fit: contain;
+}
+
+.label-input-div {
+  padding-bottom: 2%;
+}
+
+.menuFormHeader {
+  font-size: 300%;
+  font-family: 'Lora', serif;
+}
+
+.formLabelTextCreateMenuItem,
+.formLabelTextUpdateMenuItem {
+  position: absolute;
+  left:20%;
+  font-family: 'Slabo 27px', serif;
+}
+
+.createMenuItemInput,
+.updateMenuItemInput {
+  position: absolute;
+  right:20%;
+  font-family: 'Lora', serif;
+  font-weight: bold;
+}
+
+.formLabelMenuItem,
+.formLabelTextDeleteMenuItem{
+  text-align: center;
+  font-family: 'Lora', serif;
+  font-size: 130%;
+}
+
+.menuItemsColumn {
+  padding: 0px 30px
+}
+
+.createMenuItemButton{
+  width: auto;
+  padding: 0.5rem 1rem;
+  background-color: orange;
+  font-family: 'Lora', serif;
+  font-size: 15px;
+  font-weight: bold;
+  border: solid 5px green
+}
+
+.createMenuItemButton:hover{
+  color: white;
+}
+
+.createMenuItemButton:active {
+  color: black;
+  background: yellow;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+     -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+          box-shadow: inset 0px 0px 5px #c1c1c1;
+   outline: none;
+}
+
+.menuItemButton {
+  margin-top: 5%;
+  font-family: 'Lora', serif;
+  background-color: orange;
+  border: 5px solid green;
+  padding: 0.5rem 1rem; 
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.menuItemButton:hover,
+.createMenuItem:hover{
+  color: white;
+}
+
+.menuItemButton:active,
+.createMenuItem:active {
+  color: black;
+  background: yellow;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+     -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+          box-shadow: inset 0px 0px 5px #c1c1c1;
+   outline: none;
+}

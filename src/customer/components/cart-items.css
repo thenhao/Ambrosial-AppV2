@@ -1,0 +1,73 @@
+.orderlist-title {
+  font-family: "Lora", serif;
+  margin: 30px 0 0 0;
+  text-align: center;
+  color: black;
+}
+
+.empty-list {
+  font-family: "Lora", serif;
+  margin-bottom: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+}
+
+.table-header {
+  width: 150px;
+  padding: 10px 10px 20px 10px;
+  font-family: "Slabo 27px", serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+}
+
+.table-content{
+  text-align: center;
+  padding-bottom: 10px;
+  font-family: "Lora", serif;
+  font-weight: bold;
+  width: 150px;
+  color: black;
+}
+
+.quantityDisplay {
+  width: 10%;
+  height: 55%;
+  text-align: center;
+  margin: 10px;
+  background-color: orange;
+  font-weight: bold;
+  font-size: 15px;
+  border: 3px solid green;
+  border-radius: 1px;
+}
+
+.orderlist-table{
+  margin: 0 auto;
+  border-bottom:black 2px solid
+}
+
+.addMinusItem {
+  border-radius: 1px;
+  background-color: orange;
+  border: green 3px solid;
+  font-family: 'Lora', serif;
+  font-weight: bold;
+}
+
+.addMinusItem:hover {
+  color: white;
+}
+
+.addMinusItem:active {
+color: black;
+background: yellow;
+-webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+  -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+      box-shadow: inset 0px 0px 5px #c1c1c1;
+  outline: none;
+}
+
+
+

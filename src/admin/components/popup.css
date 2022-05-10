@@ -1,0 +1,474 @@
+.createMenuItemPopup-box,
+.createOrderPopup-box{
+  width:30%;
+  height:auto;
+  border: 1px solid white;
+  padding:3%;
+  text-align: center;
+  padding-bottom:5%;
+  background-color: black;
+  position:absolute;
+  top: 20%;
+  left: 32%;
+  z-index: 2;
+}
+
+.updateCurrentDistinctOrderPopup-box{
+  width:30%;
+  height: auto;
+  border: 1px solid white;
+  padding:3%;
+  padding-bottom:5%;
+  background-color: black;
+  position:absolute;
+  top: 20%;
+  left: 32%;
+  z-index: 2;
+}
+
+.updateMenuItemPopup-box,
+.updateOrderItemPopup-box{
+  width:30%;
+  height: auto;
+  border: 1px solid white;
+  padding:3%;
+  text-align: center;
+  padding-bottom:5%;
+  background-color: black;
+  position:absolute;
+  top: 20%;
+  left: 32%;
+  z-index: 3;
+}
+
+.deleteCurrentDistinctOrderPopup-box{
+  width:30%;
+  height: auto;
+  border: 1px solid white;
+  padding:3%;
+  padding-bottom:5%;
+  background-color: black;
+  position:absolute;
+  top: 20%;
+  left: 32%;
+  z-index: 2;
+}
+
+.deleteMenuItemPopup-box,
+.deleteOrderItemPopup-box{
+  width:30%;
+  height: auto;
+  border: 1px solid white;
+  padding:3%;
+  text-align: center;
+  padding-bottom:5%;
+  background-color: black;
+  position:absolute;
+  top: 20%;
+  left: 32%;
+  z-index: 4;
+}
+
+.createMenuItem-close-icon,
+.createOrder-close-icon {
+  margin-left: 95%;
+}
+
+.updateCurrentDistinctOrder-close-icon{
+  margin-left: 95%;
+}
+
+.updateMenuItem-close-icon,
+.updateOrderItem-close-icon{
+  margin-left: 95%;
+}
+
+.deleteCurrentDistinctOrder-close-icon{
+  margin-left: 95%;
+}
+
+.deleteMenuItem-close-icon,
+.deleteOrderItem-close-icon{
+  margin-left: 95%;
+}
+
+
+.createOrderConfirmationPopup-box {
+  width:30%;
+  height: auto;
+  border: 1px solid white;
+  padding:3%;
+  text-align: center;
+  background-color: black;
+  position:absolute;
+  top: 20%;
+  left: 32%;
+  z-index: 2;
+}
+
+.createMenuItemConfirmationPopup-box,
+.createOrderItemConfirmationPopup-box {
+  position:absolute;
+  top: 20%;
+  left: 32%;
+  width:30%;
+  background-color: black;
+  height: auto;
+  text-align: center;
+  border: 1px solid white;
+  padding:3%;
+  z-index: 4;
+}
+
+
+.updateOrderConfirmationPopup-box{
+  width:30%;
+  height: auto;
+  border: 1px solid white;
+  padding:3%;
+  text-align: center;
+  background-color:black;
+  position:absolute;
+  top: 20%;
+  left: 32%;
+  z-index: 2;
+}
+
+.updateMenuItemConfirmationPopup-box,
+.updateOrderItemConfirmationPopup-box{
+  width:30%;
+  height: auto;
+  border: 1px solid white;
+  padding:3%;
+  text-align: center;
+  background-color: black;
+  position:absolute;
+  top: 20%;
+  left: 32%;
+  z-index: 3;
+}
+
+
+.deleteOrderConfirmationPopup-box{
+  width:30%;
+  height: auto;
+  border: 1px solid white;
+  padding:3%;
+  text-align: center;
+  background-color: black;
+  position:absolute;
+  top: 20%;
+  left: 32%;
+  z-index: 2;
+}
+
+.deleteMenuItemConfirmationPopup-box,
+.deleteOrderItemConfirmationPopup-box{
+  width:30%;
+  height: auto;
+  border: 1px solid white;
+  padding:3%;
+  text-align: center;
+  background-color: black;
+  position:absolute;
+  top: 20%;
+  left: 32%;
+  z-index: 4;
+}
+
+.createMenuItemConfirmation-close-icon,
+.createOrderItemConfirmation-close-icon {
+  margin-left: 95%;
+}
+
+.createOrderConfirmation-close-icon {
+  margin-left: 95%;
+}
+
+.updateOrderConfirmation-close-icon{
+  margin-left: 95%;
+}
+
+.updateMenuItemConfirmation-close-icon,
+.updateOrderItemConfirmation-close-icon{
+  margin-left: 95%;
+}
+
+.deleteOrderConfirmation-close-icon{
+  margin-left: 95%;
+}
+
+.deleteMenuItemConfirmation-close-icon,
+.deleteOrderItemConfirmation-close-icon{
+  margin-left: 95%;
+}
+
+
+.viewOrderPopup-box{
+  position:absolute;
+  top: 20%;
+  left: 23%;
+  width:50%;
+  height: auto;
+  background-color: black;
+  border: 1px solid white;
+  padding:3%;
+  z-index: 2;
+}
+
+
+.createOrderItemPopup-box{
+  position:absolute;
+  top: 20%;
+  left: 28%;
+  width:40%;
+  height: auto;
+  background-color: black;
+  border: 1px solid white;
+  padding:3%;
+  z-index: 4;
+}
+
+.createReceiptPopup-box{
+  width:30%;
+  height: auto;
+  border: 1px solid white;
+  padding:3%;
+  padding-bottom:5%;
+  background-color: black;
+  position:absolute;
+  top: 20%;
+  left: 32%;
+  z-index: 2;
+}
+
+.createReceiptConfirmationPopup-box {
+  width:30%;
+  height: auto;
+  border: 1px solid white;
+  padding:3%;
+  text-align: center;
+  background-color:black;
+  position:absolute;
+  top: 20%;
+  left: 32%;
+  z-index: 2;
+}
+
+/* .viewReceiptPopup-box{
+  width:30%;
+  height: auto;
+  border: 1px solid white;
+  padding:3%;
+  padding-bottom:5%;
+
+  position:absolute;
+  top: 20%;
+  left: 32%;
+  z-index: 2;
+} */
+
+.viewReceiptsItemsPopup-box{
+  width:30%;
+  height: auto;
+  border: 1px solid white;
+  padding:3%;
+  padding-bottom:5%;
+  background-color: black;
+  position:absolute;
+  top: 20%;
+  left: 32%;
+  z-index: 3;
+}
+
+/* .viewReceiptConfirmationPopup-box {
+  width:30%;
+  height: auto;
+  border: 1px solid white;
+  padding:3%;
+  position:absolute;
+  top: 5%;
+  left: 32%;
+  z-index: 2;
+} */
+
+.updateReceiptPopup-box{
+  width:30%;
+  height: auto;
+  border: 1px solid white;
+  padding:3%;
+  padding-bottom:5%;
+  background-color: black;
+  position:absolute;
+  top: 20%;
+  left: 32%;
+  z-index: 2;
+}
+
+.updateReceiptConfirmationPopup-box {
+  width:30%;
+  height: auto;
+  border: 1px solid white;
+  padding:3%;
+  background-color: black;
+  text-align: center;
+  position:absolute;
+  top: 20%;
+  left: 32%;
+  z-index: 2;
+}
+
+.deleteReceiptPopup-box{
+  width:30%;
+  height: auto;
+  border: 1px solid white;
+  padding:3%;
+  padding-bottom:5%;
+  background-color: black;
+  position:absolute;
+  top: 20%;
+  left: 32%;
+  z-index: 2;
+}
+
+.deleteReceiptConfirmationPopup-box {
+  width:30%;
+  height: auto;
+  border: 1px solid white;
+  padding:3%;
+  background-color: black;
+  text-align: center;
+  position:absolute;
+  top: 20%;
+  left: 32%;
+  z-index: 2;
+}
+
+.createMenuItem-close-icon,
+.updateMenuItem-close-icon,
+.deleteMenuItem-close-icon,
+.updateMenuItemConfirmation-close-icon,
+.createMenuItemConfirmation-close-icon,
+.deleteMenuItemConfirmation-close-icon,
+.createOrder-close-icon,
+.updateCurrentDistinctOrder-close-icon,
+.updateOrderItem-close-icon,
+.deleteCurrentDistinctOrder-close-icon,
+.deleteOrderItem-close-icon,
+.viewOrder-close-icon,
+.createOrderItem-close-icon,
+.createReceipt-close-icon,
+.viewReceipt-close-icon,
+.viewReceiptsItems-close-icon,
+.updateReceipt-close-icon,
+.deleteReceipt-close-icon,
+.login-close-icon,
+.updatePasswordError-close-icon,
+.updatePasswordSuccess-close-icon,
+.createPayment-close-icon,
+.updatePayment-close-icon,
+.deletePayment-close-icon {
+  margin-left: 95%;
+  font-family: "Yomogi", cursive;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.loginPopup-box,
+.updatePasswordErrorPopup-box,
+.updatePasswordSuccessPopup-box,
+.createPaymentPopup-box,
+.updatePaymentPopup-box,
+.createPaymentConfirmationPopup-box,
+.updatePaymentConfirmationPopup-box,
+.deletePaymentPopup-box,
+.deletePaymentConfirmationPopup-box {
+  width:30%;
+  height: auto;
+  background-color: black;
+  text-align: center;
+  border: 1px solid white;
+  padding:3%;
+  padding-bottom:5%;
+  position:absolute;
+  top: 20%;
+  left: 32%;
+  z-index: 2;
+}
+
+.login-close-icon,
+.updatePasswordError-close-icon,
+.updatePasswordSuccess-close-icon,
+.login-box,
+.updatePasswordError-box,
+.updatePasswordSuccess-box {
+  color: white;
+}
+
+.login-box,
+.updatePasswordError-box,
+.updatePasswordSuccess-box {
+  font-size:110%;
+  font-family: 'Lora', serif;
+}
+
+.view-popup.active,
+.edit-popup.active,
+.destroy-popup.active {
+  display: block;
+  position: absolute;
+  top: 40vh;
+  left: 35vw;
+  background-color: white;
+  color: black;
+  height: auto;
+  width: 400px;
+  padding: 20px;
+  z-index: 1;
+}
+
+.view-close-icon, .create-close-icon, .update-close-icon, .delete-close-icon {
+  content: 'x';
+  position: fixed;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  right: 30%;
+  border-radius: 50%;
+  line-height: 25px;
+  text-align: center;
+  font-family: "Yomogi", cursive;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.view-close-icon:hover, 
+.create-close-icon:hover, 
+.update-close-icon:hover, 
+.delete-close-icon:hover,
+.createMenuItem-close-icon:hover,
+.updateMenuItem-close-icon:hover,
+.deleteMenuItem-close-icon:hover,
+.viewOrder-close-icon:hover,
+.createOrder-close-icon:hover,
+.createOrderItem-close-icon:hover,
+.updateOrderItem-close-icon:hover,
+.deleteOrderItem-close-icon:hover,
+.updateCurrentDistinctOrder-close-icon:hover,
+.deleteCurrentDistinctOrder-close-icon:hover,
+.createReceipt-close-icon:hover,
+.updateReceipt-close-icon:hover,
+.viewReceipt-close-icon:hover,
+.viewReceiptsItems-close-icon:hover,
+.deleteReceipt-close-icon:hover,
+.createPayment-close-icon:hover,
+.updatePayment-close-icon:hover,
+.deletePayment-close-icon:hover,
+.login-close-icon:hover,
+.updatePasswordError-close-icon:hover,
+.updatePasswordSuccess-close-icon:hover {
+  font-size: 28px;
+  cursor: pointer;
+}
+
+

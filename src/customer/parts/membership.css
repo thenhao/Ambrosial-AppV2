@@ -1,0 +1,184 @@
+.join {
+    background-color: mediumturquoise;
+    border: 1px solid mediumturquoise;
+    border-radius: 3px;
+    position: relative;
+    top: 0;
+    right: 80vw;
+    width: 150px;
+    padding: 5px;
+    font-family: "Yomogi", cursive;
+}
+.signuptitle{
+    font-family: 'Licorice', cursive;
+    font-weight: bold;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+.signupsubtitle{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Yomogi', cursive;
+    text-align: center;
+    padding-left: 10px;
+    margin: -10px 0;
+}
+
+.signup {
+    height: 30px;
+    width: 40px;
+    position: absolute;
+    top: -0px;
+    right: 200px;
+}
+
+.formcontainer{
+    width:50%;
+}
+
+.inputvalue{
+    line-height: 30px;
+    margin-bottom: 10px;
+    position: relative;
+    left: 20%;
+    width: 300px;
+}
+
+.inputcheckbox:hover{
+    cursor: pointer;
+}
+
+.agreement{
+    width:370px;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+.inputcheckboxcontainer{
+    align-self: auto;
+    margin-left: 90px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.signupagreement{
+    width:370px;
+    margin: -10px 0 10px 100px;
+}
+
+.agreement,
+.signupagreement {
+    font-size: 12px;
+}
+
+.signupbutton{
+    height:30px;
+    width: 100px;
+    position: absolute;
+    top: 430px;
+    left: 180px;
+    background-color: rgb(240, 240, 240);
+
+}
+
+.signupimagecontainer{
+    width:49%;
+    height: fit-content;
+    padding-top:2px;
+}
+
+.signupimage{
+    height:480.69px;
+    padding:0px;
+}
+
+.signupcontainer{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    left: 30px;
+    overflow-x: hidden;
+    width: 470px;
+}
+
+.formcontainer{   
+    width:650px;
+    height:490px;
+    margin-left: -30px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .join {
+        right: 38vw;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    .join {
+        right: 55vw;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .join {
+        right: 70vw;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .join {
+        right: 75vw;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .join {
+        right: 77vw;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .join {
+        right: 85vw;
+    }
+
+    .formcontainer{
+        margin-left:120px;
+        width:100%;
+    }
+
+    .signupbutton{
+        top: 440px;
+        left: 300px;
+    }
+
+    .signupcontainer{
+        width: 545px;
+    }
+
+    .signupagreement{
+        margin-left:70px;
+    }
+
+    .inputcheckboxcontainer{
+        margin-left: 80px;
+    }
+
+    .agreement{
+        width:300px;
+        padding-top: 1px;
+    }
+    
+}

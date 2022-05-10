@@ -1,0 +1,160 @@
+.payments-container {
+  text-align: center;
+  background-color: black;
+  height: 100vh;
+}
+
+.payment-modal{
+  width:100%;
+  height:100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(0,0,0,.9);
+  z-index: 1;
+}
+
+.payment-confimation-modal {
+  width:100%;
+  height:100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(0,0,0,.9);
+  z-index: 2;
+}
+
+.payment-title{
+  font-family: 'Open Sans', san-serif;
+}
+
+.createAndRefreshPayment{
+  padding: 0 3%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 300px;
+  gap: 15px;
+  float: right;
+  margin-left: 82.5%;
+}
+
+.refreshPaymentLogs {
+  width: 50%;
+  padding: 0.5rem 1rem;
+  background-color: orange;
+  font-family: 'Lora', serif;
+  font-size: 15px;
+  font-weight: bold;
+  border: solid 5px green
+}
+
+.refreshPaymentLogs:hover{
+  color: white;
+}
+
+.refreshPaymentLogs:active {
+  color: black;
+  background: yellow;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+     -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+          box-shadow: inset 0px 0px 5px #c1c1c1;
+   outline: none;
+}
+
+.createPaymentButton {
+  width: 60%;
+  padding: 0.5rem 1rem;
+  right: 10%;
+  background-color: orange;
+  font-family: 'Lora', serif;
+  font-size: 15px;
+  font-weight: bold;
+  border: solid 5px green
+}
+
+.createPaymentButton:hover{
+  color: white;
+}
+
+.createPaymentButton:active {
+  color: black;
+  background: yellow;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+     -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+          box-shadow: inset 0px 0px 5px #c1c1c1;
+   outline: none;
+}
+
+.paymentFormHeader {
+  font-size: 300%;
+  font-family: 'Lora',serif;
+}
+
+.createPaymentFormLabelText,
+.updatePaymentFormLabelText {
+  position: absolute;
+  left:22%;
+  font-family: 'Slabo 27px', serif;
+}
+
+.deletePaymentFormLabelText {
+  text-align: center;
+  font-family: 'Lora', serif;
+  font-size: 130%;
+}
+
+.paymentFormLabelTextStatus {
+  font-family: 'Lora', serif;
+}
+
+.createPaymentInputReceiptId,
+.createPaymentInputPaymentType,
+.createPaymentInputPaymentStatus {
+  position: absolute;
+  right:22%;
+  font-family: 'Lora', serif;
+  font-weight: bold;
+}
+
+.updatePaymentInputInvoiceId,
+.updatePaymentInputReceiptId,
+.updatePaymentInputPaymentType,
+.updatePaymentInputPaymentStatus {
+  position: absolute;
+  right:22%;
+  font-family: 'Lora', serif;
+  font-weight: bold;
+}
+
+.paymentButton {
+  margin-top: 5%;
+  font-family: 'Lora', serif;
+  background-color: orange;
+  border: 5px solid green;
+  padding: 0.5rem 1rem; 
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.paymentButton:hover {
+  color: white;
+}
+
+.paymentButton:active {
+color: black;
+background: yellow;
+-webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+   -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+        box-shadow: inset 0px 0px 5px #c1c1c1;
+ outline: none;
+}
+
+.payment-table {
+  margin: 0 auto;
+  font-family: 'Lora', serif;
+}
+
+.payment-table-column {
+  padding: 0px 30px
+}

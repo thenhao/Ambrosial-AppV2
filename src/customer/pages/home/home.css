@@ -1,0 +1,136 @@
+.promotion-header {
+    text-align: center;
+    font-family: "Lora",serif;
+    font-size: 50px;
+    color: yellow;
+    position: relative;
+    left: 0;
+    top: 30px;
+    animation:blinkingText 2s infinite;
+}
+
+@keyframes blinkingText{
+    0% {color: yellow;}
+    20% {color: yellow;}
+    49% {color: transparent;}
+    50% {color: transparent;}
+    90% {color: yellow;}
+    100% {color: yellow;}
+}
+
+.promotion1 {
+    text-align: center;
+    font-family:  "Lora",serif;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 80px;
+    color: white;
+}
+
+.promotion2 {
+    text-align: center;
+    padding-bottom: 20px;
+    font-family:  "Lora",serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+}
+
+.image-banner-1, 
+.image-banner-2, 
+.image-banner-3 {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    position: relative;
+    top:0;
+    left: 0;
+    width: 600px;
+    height: 600px;
+    overflow: hidden;
+}
+
+.carousel {
+    position: relative;
+}
+
+#brownie-banner, #steak-banner, #mojito-banner{
+    width: 650px;
+    height: auto;
+}
+
+#brownie-banner {
+    margin-left: -190px;
+    margin-top: -190px;
+}
+
+#mojito-banner {
+    margin-left: -55px;
+    margin-top: -35px
+}
+
+#steak-banner {
+    margin-left: -260px;
+    margin-top: -90px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .home {
+        width: 100vw;
+        margin-left: -500px;
+    }
+
+    .promotion-header {
+        font-size: 22px;
+    }
+
+    .promotion1,
+    .promotion2 {
+        font-size: 16px;
+    }
+
+    .image-banner-1, 
+    .image-banner-2, 
+    .image-banner-3 {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .home {
+        margin-left: -40%;
+    }
+
+    .promotion-header {
+        font-size: 36px;
+    }
+
+    .promotion1,
+    .promotion2 {
+        font-size: 24px;
+    }
+
+    .image-banner-1, 
+    .image-banner-2, 
+    .image-banner-3 {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .home {
+        margin-left: -10%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .home {
+        margin: 0;
+    }
+}

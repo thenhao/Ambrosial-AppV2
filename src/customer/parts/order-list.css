@@ -1,0 +1,66 @@
+.orderlist {
+  height: 40px;
+  width: 40px;
+  padding: 5px;
+  position: absolute;
+  top: 1%;
+  left: 95%;
+  float: right;
+  z-index: 1;
+}
+
+.orderlisticon:hover {
+  cursor: pointer;
+}
+
+.quantityUpdater {
+  width:25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: white;
+
+  text-align: center;
+  margin-top: -20px;
+  margin-left: 30px;
+  font-family: "Lora", serif;
+  font-size: 17px;
+  font-weight: bold;
+  z-index: 1;
+  position: absolute;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .orderlist {
+    right: 100px;
+    top: -25px;
+  }
+
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .orderlist {
+      right: 110px;
+    }
+  }
+
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .orderlist {
+      right: 130px;
+    }
+  }
+
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .orderlist {
+      right: 140px;
+    }
+  }
+
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .orderlist {
+      right: 160px;
+    }
+  }
+}

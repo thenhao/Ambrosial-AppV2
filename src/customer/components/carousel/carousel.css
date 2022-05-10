@@ -1,0 +1,60 @@
+ .carousel .carousel-status{
+    font-size: 0px;
+  }
+
+ .carousel .dot{
+    width:0px;
+     height: 0px;
+     padding: 0px;
+     margin: 0px;
+ }
+ .carousel .dot .selected{
+    width:0px;
+    height: 0px;
+    padding: 0px;
+    margin: 0px;
+ }
+ .carousel .control-dots{
+    width:0px;
+     height: 0px;
+     padding: 0px;
+     margin: 0px;
+  }
+ 
+ .carousel .thumb{
+     width:0px;
+     height: 0px;
+     padding: 0px;
+     margin: 0px;
+     border: 0px solid white;
+ }
+ 
+ .carousel .thumb.selected{
+     width:0px;
+     height: 0px;
+     padding: 0px;
+     margin: 0px;
+     border: 0px solid white;
+ }
+ 
+ .thumbs-wrapper.axis-vertical{
+     width:0px;
+     height: 0px;
+     padding: 0px;
+     margin: 0px;
+ }
+ 
+ .carouselcontainer{
+     width: 1000px;
+     margin: 50px auto;
+ }
+ 
+ .slide.selected{
+     width: 450px;
+     height: 450px;
+ }
+ 
+ .slide.previous{
+     width: 450px;
+     height: 450px;
+ }

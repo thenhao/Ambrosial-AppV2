@@ -1,0 +1,9 @@
+.displaycontainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 20px 0 20px 0;
+}

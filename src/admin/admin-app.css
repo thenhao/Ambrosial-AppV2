@@ -1,0 +1,53 @@
+.admin-app {
+    background-color: black;
+    color: white;
+}
+
+.logout-button {
+    position: absolute;
+    top:5%;
+    right: 3%;
+    font-family: 'Lora', serif;
+    background-color: orange;
+    border: 5px solid green;
+    padding: 0.5rem 1rem; 
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.logout-button:hover {
+    color: white;
+}
+
+.logout-button:active {
+  color: black;
+  background: yellow;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+     -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+          box-shadow: inset 0px 0px 5px #c1c1c1;
+   outline: none;
+}
+
+.admin-navbar {
+    text-align:center;
+    border: none;
+    font-family: 'Slabo 27px', serif;
+    padding-bottom: 3%;
+    margin-top: 15vh;
+}
+
+.admin-pages {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 24px;
+}
+
+.admin-pages:hover {
+    font-weight: bold;
+}
+
+.admin-pages:focus {
+ color: orange;
+ border-top: orange 2px solid;
+}

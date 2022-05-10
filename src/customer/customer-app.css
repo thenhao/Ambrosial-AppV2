@@ -1,0 +1,273 @@
+.payment,
+.server {
+    margin-top: -1.5%;
+}
+
+.orderlist {
+    margin-top: -2%;
+}
+
+.ingress{
+    -webkit-animation: slide-bottom 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: slide-bottom 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes slide-bottom {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateY(25px);
+        transform: translateY(25px);
+        opacity: 1;
+    }
+  }
+
+  @keyframes slide-bottom {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateY(25px);
+        transform: translateY(25px);
+        
+    }
+  }
+
+  .toggleMenu {
+    position: absolute;
+    top: 180px;
+    right: 45vw;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 20px;
+    z-index: 1;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.toggleMenu:hover {
+    cursor: pointer;
+}
+
+.bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.header{
+    text-align: center;
+}
+
+.navbarcontainer{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.navbar {
+    margin: 0 auto;
+}
+
+.pages {
+    background-color: transparent;
+    padding: 10px 40px;
+    font-size: 25px;
+    font-family: 'Slabo 27px', serif;
+    color: white;
+}
+
+
+.pages:hover {
+    cursor: pointer;
+}
+
+.selected-page {
+    border-top: white 2px solid;
+    padding: 10px 40px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Slabo 27px', serif;
+    background-color: transparent;
+    color: white;
+}
+
+
+.maincontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.trialcontainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.menuitemcontainer{
+    margin: 0 auto;
+}
+
+.menu{
+    margin:10px;
+    height: 500px;
+}
+
+.orderlistcontainer{
+    width:29.7%;
+}
+
+.order{
+    margin:10px;
+    height: 500px;
+}
+
+.footer{
+    height: 120px;
+}
+
+.orderTitle {
+    text-align: center;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .background-opacity{
+        margin-top: -50px;
+        width: 100vw;
+        overflow-x: hidden;
+    }
+
+    .toggleMenu {
+        display: flex;
+    }
+
+    .navbar {
+        display: none;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100vw;
+        margin-top: -20px;
+        transition: 350ms;
+    }
+
+    .navbar.active{
+        display: flex;
+        transition: 350ms;
+    }
+
+    .pages,
+    .selected-page {
+        width: 100vw;
+        text-align: center;
+    }
+
+    .navbar span {
+        text-align:center;
+    }
+
+    .menuitemcontainer {
+        margin-top: -20px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    .background-opacity{
+        width: 100vw;
+        overflow-x: hidden;
+    }
+
+    .toggleMenu {
+        display: flex;
+        margin-top: 20px;
+        right: 47vw;
+    }
+
+    .navbar {
+        display: none;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100vw;
+        margin: -20px 0 0 0;
+        transition: 350ms;
+    }
+
+    .navbar.active{
+        display: flex;
+        transition: 350ms;
+    }
+
+    .pages,
+    .selected-page {
+        width: 100vw;
+        text-align: center;
+    }
+
+    .navbar span {
+        text-align:center;
+    }
+
+    .menuitemcontainer {
+        margin-top: -20px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .background-opacity{
+        width: 100vw;
+        overflow-x: hidden;
+    }
+
+    .toggleMenu {
+        display: flex;
+        margin-top: 20px;
+        right: 47vw;
+    }
+
+    .navbar {
+        display: none;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100vw;
+        margin: -20px 0 0 0;
+        transition: 350ms;
+    }
+
+    .navbar.active{
+        display: flex;
+        transition: 350ms;
+    }
+
+    .pages,
+    .selected-page {
+        width: 100vw;
+        text-align: center;
+    }
+
+    .navbar span {
+        text-align:center;
+    }
+
+    .menuitemcontainer {
+        margin-top: -20px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .toggleMenu {
+        display: none;
+    }
+}

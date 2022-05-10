@@ -1,0 +1,96 @@
+.generalConfirmationHeaderContainer{
+   justify-content: center;
+}
+
+.generalConfirmationHeader{
+    font-size: 250%;
+    font-family:'Lora', serif;
+}
+
+.generalConfirmationButtonContainer{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    align-content: flex-start;
+    justify-content: center;
+}
+
+.generalConfirmationYesButton{  
+    padding: 0.5rem 1rem;
+    background-color: orange;
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    font-weight: bold;
+    border: solid 5px green
+}
+
+.generalConfirmationYesButton:hover {
+    color: white;
+}
+
+.generalConfirmationYesButton:active {
+    color: black;
+    background: yellow;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+       -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+            box-shadow: inset 0px 0px 5px #c1c1c1;
+     outline: none;
+}
+
+.generalConfirmationNoButton{
+    margin-left: 5%;
+    padding: 0.5rem 1rem;
+    background-color: orange;
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    font-weight: bold;
+    border: solid 5px green
+}
+
+.generalConfirmationNoButton:hover {
+    color: white;
+}
+
+.generalConfirmationNoButton:active {
+    color: black;
+    background: yellow;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+       -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+            box-shadow: inset 0px 0px 5px #c1c1c1;
+     outline: none;
+}
+
+.generalConfirmationHeaderStatus{
+    font-size: 200%;
+    font-family: 'Lora', serif;
+}
+
+.generalConfirmationStatusMessageContainer{
+    margin-top:5%;  
+    font-family: 'Lora', serif;
+}
+
+.generalConfirmationCloseButton{
+    margin-top: 5%;
+    font-family: 'Lora', serif;
+    background-color: orange;
+    border: 5px solid green;
+    padding: 0.5rem 1rem; 
+    font-size: 15px;
+    font-weight: bold;
+}
+  
+.generalConfirmationCloseButton:hover {
+color: white;
+}
+
+.generalConfirmationCloseButton:active {
+color: black;
+background: yellow;
+-webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+        box-shadow: inset 0px 0px 5px #c1c1c1;
+outline: none;
+}

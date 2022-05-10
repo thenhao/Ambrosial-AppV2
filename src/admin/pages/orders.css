@@ -1,0 +1,235 @@
+.label-input-div {
+  padding-bottom: 2%;
+}
+
+/* div for the two buttons create order and refresh list */
+.createAndRefresh{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 82.5%;
+}
+
+.createOrder {
+  width: 60%;
+  padding: 0.5rem 1rem;
+  background-color: orange;
+  font-family: 'Lora', serif;
+  font-size: 15px;
+  font-weight: bold;
+  border: solid 5px green
+}
+
+.createOrder:hover{
+  color: white;
+}
+
+.createOrder:active {
+  color: black;
+  background: yellow;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+     -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+          box-shadow: inset 0px 0px 5px #c1c1c1;
+   outline: none;
+}
+
+.refreshList {
+  width: 60%
+}
+
+.modalContainer{
+  width:100%;
+  height:100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(0,0,0,.9);
+  z-index: 1;
+}
+
+.orderTitle {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.orderTable {
+  margin: 0 auto;
+  font-family: 'Lora', serif;
+}
+
+.orderTableColumn {
+  padding: 0px 30px;
+}
+
+/* Create section */
+.formCreateDistinctOrder {
+  margin-top: 4%;
+  text-align: center;
+}
+
+.formHeaderCreateDistinctOrder{
+  font-size: 300%;
+  font-family: 'Lora', serif;
+}
+
+.formLabelTextCreateDistinctOrder{
+  position: absolute;
+  left: 24%;
+  font-family: 'Slabo 27px', serif;
+}
+
+.createInputOrderNo{
+  position: absolute;
+  right: 24%;
+  font-family: 'Lora', serif;
+  font-weight: bold;
+}
+
+.createOrderButton{
+  padding: 0.5rem 1rem;
+  margin-top: 5%;
+  background-color: orange;
+  font-family: 'Lora', serif;
+  font-size: 15px;
+  font-weight: bold;
+  border: solid 5px green
+}
+
+.createOrderButton:hover {
+  color: white;
+}
+
+.createOrderButton:active {
+  color: black;
+  background: yellow;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+     -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+          box-shadow: inset 0px 0px 5px #c1c1c1;
+   outline: none;
+}
+
+/* End of create section */
+
+/* Update section */
+.formUpdateDistinctOrder {
+  margin-top: 4%;
+  text-align: center;
+}
+
+.formHeaderUpdate{
+  font-size: 300%;
+  font-family: 'Lora', serif;
+}
+
+.formLabelTextUpdate{
+  position: absolute;
+  left: 15%;
+  font-size: 120%;
+  font-family: 'Slabo 27px', serif;
+}
+
+.formLabelOrderNoUpdate {
+  position: absolute;
+  right: 15%;
+  font-size: 120%;
+  font-family: 'Lora', serif;
+}
+
+.updateOrderNo{
+  position: absolute;
+  right: 15%;
+  font-family: 'Lora', serif;
+  font-weight: bold;
+}
+
+.updateCurrentDistinctOrderButton{
+  margin-top: 5%;
+  padding: 0.5rem 1rem;
+  background-color: orange;
+  font-family: 'Lora', serif;
+  font-size: 15px;
+  font-weight: bold;
+  border: solid 5px green
+}
+
+.updateCurrentDistinctOrderButton:hover{
+  color: white;
+}
+
+.updateCurrentDistinctOrderButton:active {
+  color: black;
+  background: yellow;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+     -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+          box-shadow: inset 0px 0px 5px #c1c1c1;
+   outline: none;
+}
+
+/* End of Update section */
+
+/* delete section */
+.formDeleteDistinctOrder{
+  margin-top: 4%;
+  text-align: center;
+  font-family: 'Lora', serif;
+}
+
+.formHeaderDelete{
+  font-size: 300%;
+}
+
+.formLabelTextDelete,
+.formLabelOrderNoDelete{
+  font-size: 130%;
+}
+
+.deleteCurrentDistinctOrderButton{
+  margin-top: 5%;
+  padding: 0.5rem 1rem;
+  background-color: orange;
+  font-family: 'Lora', serif;
+  font-size: 15px;
+  font-weight: bold;
+  border: solid 5px green
+}
+
+.deleteCurrentDistinctOrderButton:hover{
+  color: white;
+}
+
+.deleteCurrentDistinctOrderButton:active {
+  color: black;
+  background: yellow;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+     -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+          box-shadow: inset 0px 0px 5px #c1c1c1;
+   outline: none;
+}
+
+/* End of delete section */
+
+/* div to contain the page */
+.orders {
+    text-align: center;
+    background-color: black;
+    height: 100vh;
+  }
+
+
+  .actionButtons{
+    width: 20%;
+  }
+
+  .confirmationContainer{
+    margin-left: 25%;
+  }
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,50 @@
+.payment {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 1.25%;
+    left: 83%;
+    float: right;
+    z-index: 1;
+    color: black;
+    padding: 5px;
+}
+
+.payment:hover {
+    cursor: pointer;
+}
+
+.payment-content {
+    text-align: center;
+    padding: 20px 0;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .payment {
+        right: 10px;
+    }
+
+    .payment-content {
+        padding: 20px;
+        font-size: 14px;
+        width: auto;
+        height: auto;
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .payment {
+        right: 10px;
+    }
+
+    .payment-content {
+        padding: 20px;
+        font-size: 20px;
+        width: auto;
+        height: auto;
+    }
+}

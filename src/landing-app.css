@@ -1,0 +1,72 @@
+.landing {
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 100vh;
+  padding-top: 1%;
+}
+
+.landing-text {
+  font-family: 'Open Sans', san-serif;
+}
+
+.landing .landing-text {
+  color: white;
+  margin-top: 30px;
+}
+
+.landing-title {
+  font-family: 'Sacramento', cursive;
+  color: pink;
+  font-size: 120px;
+  margin: 40px 0;
+}
+
+.landing-subtitle {
+  font-family: 'Lora', serif;
+  margin-bottom: 80px;
+  margin-top: -60px;
+}
+.landing-nav {
+  margin-top: 80px;
+}
+
+.customer-nav,
+.login-nav {
+  text-decoration: none;
+  padding: 20px;    
+  background-color: orange;
+  border: 5px solid green;
+  border-radius: 20px;
+  color: black;
+  font-size: 24px;
+  font-family: 'Slabo 27px', serif;
+}
+
+.customer-nav:hover,
+.login-nav:hover {
+  color: white;
+}
+
+.customer-nav:active,
+.login-nav:active {
+  color: black;
+  background: yellow;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+     -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+          box-shadow: inset 0px 0px 5px #c1c1c1;
+   outline: none;
+}
+
+.customer-nav {
+  margin-right: 50px;
+}
+
+.admin-nav {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.login-nav {
+  margin-left: 50px;
+}

@@ -1,0 +1,58 @@
+
+.invoice {
+    position: relative;
+}
+
+.orderbill-table {
+    margin: 0 auto;
+}
+
+.popupTitle {
+    text-align: center;
+    font-family:"Lora", serif;
+}
+
+.close {
+  border: none;
+  background: transparent;
+  content: 'x';
+  position: fixed;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  right: 30%;
+  border-radius: 50%;
+  line-height: 25px;
+  text-align: center;
+  font-family: "Yomogi", cursive;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.close:hover {
+    font-size:35px;
+}
+
+.amend-btn:hover {
+    cursor:pointer;
+    font-weight: bold;
+}
+
+/* .button-container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+} */
+.amend-btn {
+    padding: 10px;
+    max-width: 150px;
+    background-color: rgb(240, 240, 240);
+}
+
+.amend-btn:hover {
+    cursor:pointer;
+    font-weight: bold;
+}

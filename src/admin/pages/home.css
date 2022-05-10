@@ -1,0 +1,11 @@
+.home {
+    text-align: center;
+    background-color: black;
+    height: 100vh;
+  }
+
+.greeting {
+  text-align: center;
+  font-family: 'Lora', serif;
+  font-size: 200%;
+}

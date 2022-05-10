@@ -1,0 +1,75 @@
+.server {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 1%;
+    left: 88%;
+    float: right;
+    padding: 5px;
+}
+
+.server:hover {
+    cursor: pointer;
+}
+
+.server-content {
+    text-align: center;
+    padding: 20px 0;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .server {
+        height: 15px;
+        width: 20px;
+        right: 90px;
+    }
+
+    .server-content {
+        padding: 20px;
+        font-size: 14px;
+        width: auto;
+        height: auto;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    .server {
+        height: 15px;
+        width: 20px;
+        right: 92px;
+    }
+
+    .server-content {
+        padding: 20px;
+        font-size: 14px;
+        width: auto;
+        height: auto;
+    }
+
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media only screen and (min-width: 768px) {
+        .server {
+            right: 94px;
+        }
+    }
+
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 992px) {
+        .server {
+            right: 98px;
+        }
+    }
+
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+        .server {
+            right: 100px;
+        }
+    }
+}
