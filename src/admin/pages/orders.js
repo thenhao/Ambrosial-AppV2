@@ -142,7 +142,7 @@ export default function Orders() {
 
     //setting of orderNoId for each row
     const [orderNoId, setOrderNoId] = useState(false);
-    const [orderNoUpdate, setOrderNoUpdate] = useState(0);
+    const [orderNoUpdate, setOrderNoUpdate] = useState('');
 
     console.log("orderNoId is ", orderNoId);
     console.log("orderNoUpdate is ", orderNoUpdate);
@@ -500,8 +500,8 @@ export default function Orders() {
                         <th className='orderTableColumn'>Order Id</th>
                         <th className='orderTableColumn' colSpan='3'>Actions</th>
                     </tr>
-
-                    {distinctOrderData.map((distinctOrder, index) => (
+                    
+                    {distinctOrderData ? distinctOrderData?.map((distinctOrder, index) => (
                         <tr key={distinctOrder.orderNo}>
                             <td className='orderTableColumn'>{index + 1}</td>
                             <td className='orderTableColumn'>{distinctOrder.orderNo}</td>
@@ -511,7 +511,12 @@ export default function Orders() {
                             <td className='actionButtons'><UpdateAndDeleteButton setId={setOrderNoId} id={distinctOrder.orderNoId} setData={setViewOrderItemsOrderNo} data={distinctOrder.orderNo} setView={setViewDelete} buttonText={"Delete Distinct Order"} /></td>
                         </tr>
                     )
-                    )}
+                    ):<tr >
+                    <td className='orderTableColumn'>-</td>
+                    <td className='orderTableColumn'>-</td>
+                    <td className='orderTableColumn'>-</td>
+                    <td className='actionButtons' colSpan='3'>-</td>
+                    </tr>}
 
                 </table>
 

@@ -460,7 +460,8 @@ function ViewOrderItems(props) {
                                 <th className='viewOrderItemsTableColumn' colspan="2">Actions</th>
                             </tr>
 
-                            {orderedItemsDataStatus ? orderedItemsData.map((orderedItemsData, index) => (
+                            {orderedItemsData ? orderedItemsData?.map((orderedItemsData, index) => (
+                                
                                 <tr key={orderedItemsData.orderNo}>
                                     <td className='viewOrderItemsTableColumnData'>{index + 1}</td>
                                     <td className='viewOrderItemsTableColumnData'>{capitalize(orderedItemsData.MenuItem.alt)}</td>
