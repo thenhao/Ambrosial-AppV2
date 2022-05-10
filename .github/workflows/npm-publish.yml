@@ -1,0 +1,50 @@
+name: Node.js Package
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    #defaults:
+        #run:
+            #working-directory: 'orderapp'
+    env:
+      CI: false
+    
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [12.x, 14.x, 16.x]
+        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v2
+      with:
+        node-version: ${{ matrix.node-version }}
+        cache: 'npm'
+        #cache-dependency-path: '**/package-lock.json'
+    - name: run npm commands
+      #working-directory: 'orderapp'
+      run: npm ci
+           npm install
+           #npm run build --if-present
+    #- run: npm test
+    
+    
+  deployHeroku:
+    name: Heroku Deploy
+    
+    runs-on: ubuntu-latest
+    needs: [build]
+    steps:
+      - uses: actions/checkout@v2
+      - uses: akhileshns/heroku-deploy@v3.12.12 
+        with:
+          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+          heroku_app_name: "ambrosial-app" #Must be unique in Heroku
+          heroku_email: "thlong28@gmail.com"
+          branch: "main"
