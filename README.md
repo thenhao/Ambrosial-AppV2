@@ -41,9 +41,11 @@ This project was successfully deployed to Heroku.
 * Axios
 * Sequelize
 * Joi (used as input validation)
+* Express (Middleware)
 * Visual Studios Code
 * GitHub
 * Agile / Scrum
+* N-Tier Architecture (Backend)
 
 ## Illustrations
 
