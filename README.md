@@ -40,6 +40,7 @@ This project was successfully deployed to Heroku.
 * React Router Dom
 * Axios
 * Sequelize
+* Joi (used as input validation)
 * Visual Studios Code
 * GitHub
 * Agile / Scrum
