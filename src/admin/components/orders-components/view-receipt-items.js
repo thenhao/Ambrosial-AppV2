@@ -11,6 +11,7 @@ function ViewReceiptItems(props){
     function toggleViewReceiptOrderPopup(){
         props.setViewOrder(false);
         setOrderedItemsForReceiptData([]);
+        setTotalReceiptPrice('');
         setOrderedItemsForReceiptDataStatus(false);
     }
 
@@ -116,7 +117,7 @@ function ViewReceiptItems(props){
                     
                     <br></br>  
 
-                    {orderedItemsForReceiptDataStatus ?orderedItemsForReceiptData.map((orderedItemsForReceiptData, index)=>(
+                    {orderedItemsForReceiptData ? orderedItemsForReceiptData?.map((orderedItemsForReceiptData, index)=>(
                             <tr key={orderedItemsForReceiptData.orderNo}>
                                 <td>{index+1}</td>
                                 <td>{capitalize(orderedItemsForReceiptData.MenuItem.alt)}</td>
