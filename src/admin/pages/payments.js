@@ -504,7 +504,7 @@ export default function Payments() {
 						<br></br> 
 						<br></br> 
 
-						{allPaymentLogsData.map((paymentLogs, index) => {
+						{allPaymentLogsData ? allPaymentLogsData?.map((paymentLogs, index) => {
 							return(
 								<tr key={paymentLogs.receiptID}>
 									<td className='payment-table-column'>{index+1}</td>
@@ -517,7 +517,7 @@ export default function Payments() {
 									<td className='actionButtons'><UpdateAndDeleteButton buttonText={'Delete Payment Log'} setView={() => deleteOnClick(paymentLogs.paymentInvoiceID)} setData={() => {}} setId={() => {}}/></td>
 								</tr>
 							)
-						})
+						}): null
 						}
 					</table>
 			</div>

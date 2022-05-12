@@ -641,7 +641,7 @@ export default function Menu() {
                         <th className='menuItemsColumn' colSpan='2'>Action</th>
                     </tr>
 
-                    {menuItemData.map((allMenuItems, index) => (
+                    {menuItemData ? menuItemData?.map((allMenuItems, index) => (
                         <tr key={allMenuItems.menuItemID}>
                             <td className='menuItemsColumn'>{index + 1}</td>
                             <td className='menuItemsColumn'><img class="menuItems-image" src={allMenuItems.src}></img></td>
@@ -655,7 +655,7 @@ export default function Menu() {
                             <td className='actionButtons'><UpdateAndDeleteButton setId={setMenuItemID} id={allMenuItems.menuItemID} setData={setViewMenuItemID} data={allMenuItems.menuItemID} setView={setViewDelete} buttonText={"Delete Menu Item"} /></td>
                         </tr>
                     )
-                    )}
+                    ): null}
 
                 </table>
 
