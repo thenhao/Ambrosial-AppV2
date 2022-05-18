@@ -7,7 +7,7 @@
 * Built with
 * Illustrations
 * Getting Started
-* Acknowledgement
+* Acknowledgement 
 
 ## Introduction
 This is a capstone project for the SkillsUnion/NTU Software Developer Immersive course. 
